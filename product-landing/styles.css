@@ -1,0 +1,119 @@
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #f3f3f7;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f3f3f7;
+}
+
+#header-img {
+  max-width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#title-name {
+  display: inline-block;
+}
+
+#nav-bar { 
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+#header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100;
+  max-height: 100px;
+  background-color: #f3f3f7;
+}
+
+.nav-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.filler {
+  height: 100px;
+  max-height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.web-body {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#email {
+    border-width: 1px;
+    border-style: inset;
+    border-color: (rgb(118, 118, 118), rgb(133, 133, 133));
+    margin: auto;
+    width: 275px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+#submit {
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  background-color: #F1C40F;
+}
+
+#How_it_works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.hdescription {
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+.pdescription {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 25px;
+  padding-left: 10px;
+} 
+
+#pricing {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 250px;
+  width: 28%;
+  border-style: solid;
+  margin: 10px;
+}
+
+.top {
+  width: 100%;
+  height: 20%;
+  background-color: #DDDDDD;
+}
